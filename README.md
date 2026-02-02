@@ -39,38 +39,38 @@ graph TB
     %% =========================
     %% Knowledge Ingestion Phase
     %% =========================
-    A[Markdown Knowledge Base<br/>(FAQs, Policies, Runbooks)]
+    A[Markdown Knowledge Base (FAQs, Policies, Runbooks)]
         --> B[Header-Aware Markdown Chunking]
 
-    B --> C[Structured Chunks<br/>(Preserve Section Hierarchy)]
+    B --> C[Structured Chunks (Preserve Section Hierarchy)]
 
-    C --> D[Metadata Enrichment<br/>(category, source_file, section, chunk_id)]
+    C --> D[Metadata Enrichment (category, source_file, section, chunk_id)]
 
-    D --> E[Dense Embedding Generation<br/>(MiniLM)]
-    D --> F[Sparse Embedding Generation<br/>(BM25)]
+    D --> E[Dense Embedding Generation (MiniLM)]
+    D --> F[Sparse Embedding Generation (BM25)]
 
     E --> G[Hybrid Vector Index]
     F --> G
 
-    G --> H[Qdrant Vector Store<br/>(Dense + Sparse)]
+    G --> H[Qdrant Vector Store (Dense + Sparse)]
 
     %% =========================
     %% Query & Retrieval Phase
     %% =========================
     I[Raw Customer Ticket]
-        --> J[Query Rewriting<br/>(LLM-based)]
+        --> J[Query Rewriting (LLM-based)]
 
     J --> K[One or More Retrieval Queries]
 
-    K --> L[Hybrid Retrieval<br/>(Dense + Sparse Search)]
+    K --> L[Hybrid Retrieval (Dense + Sparse Search)]
 
-    L --> M[Candidate Chunks<br/>(Top-K Initial)]
+    L --> M[Candidate Chunks (Top-K Initial)]
 
-    M --> N[Cross-Encoder Reranking<br/>(MS-MARCO)]
+    M --> N[Cross-Encoder Reranking (MS-MARCO)]
 
     N --> O[Globally Ranked Context]
 
-    O --> P[Final Context Selection<br/>(Top-N Chunks)]
+    O --> P[Final Context Selection (Top-N Chunks)]
 
     %% =========================
     %% Answer & Decision Phase
@@ -79,11 +79,12 @@ graph TB
 
     Q --> R[Answer-Only JSON Output]
 
-    R --> S[Deterministic Action Inference<br/>(Semantic Similarity)]
+    R --> S[Deterministic Action Inference (Semantic Similarity)]
 
-    S --> T[MCP Schema Validation<br/>(Pydantic)]
+    S --> T[MCP Schema Validation (Pydantic)]
 
-    T --> U[Final Support Response<br/>(Answer + References + Action)]
+    T --> U[Final Support Response (Answer + References + Action)]
+
 ```
 
 ---
@@ -129,6 +130,7 @@ We chose this model because:
 
 ## 📁 Repository Structure
 
+```text
 interview-exercise-rag/
 ├── artifacts/
 │   └── langchain_chunks.txt        # Auditable output of markdown chunking
@@ -164,7 +166,7 @@ interview-exercise-rag/
 ├── pytest.ini                      # Pytest configuration
 ├── requirements.txt                # Python dependencies
 └── README.md                       # Project documentation
-
+```
 
 ---
 
@@ -269,7 +271,7 @@ pip install -r requirements.txt
 ```bash
 pytest
 ```
-### 4. Copy the example environment file and fill in your own credentials to run the code
+### 4. Copy the example environment file and fill the credentials to run the code
 
 ```bash
 cp .env.example .env
@@ -288,7 +290,6 @@ cp .env.example .env
 ## 👤 Author
 
 **Sindhuja Chaduvula**  
-Machine Learning Specialist, Vector Institute
+*Machine Learning Specialist, Vector Institute*
 📧 sindhu.chaduvula.21@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/sindhuja-chaduvula/
-🔗 Portfolio: https://sindhuja217.github.io/sindhujachaduvula/
+🔗 [LinkedIn](https://www.linkedin.com/in/sindhuja-chaduvula/) | [Portfolio](https://sindhuja217.github.io/sindhujachaduvula/)
