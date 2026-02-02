@@ -66,7 +66,7 @@ graph TB
 
     N --> O[Ranked Context]
 
-    O --> P[Final Context Selection(Global Ranking)]
+    O --> P[Final Context Selection - Global Ranking ]
 
     %% Answer and Decision
     P --> Q[LLM Answer Generation]
