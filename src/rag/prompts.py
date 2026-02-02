@@ -11,6 +11,7 @@ TASK:
 - Do NOT cite references.
 - Do NOT mention sources.
 - Do NOT suggest internal escalation unless explicitly stated in docs.
+- If you don't know strictly say that you don't know
 
 Return STRICT JSON:
 

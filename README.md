@@ -200,7 +200,7 @@ Once the server is up and running, open the following URL in your browser to acc
 - Submit support tickets
 - Inspect request/response schemas
 - Test the RAG pipeline end-to-end
-
+- Questions are present in `questions.md` file
 
 ### Run with Streamlit
 ```bash
