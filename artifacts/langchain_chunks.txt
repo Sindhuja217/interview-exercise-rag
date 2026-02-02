@@ -1,0 +1,459 @@
+--- CHUNK 0 ---
+<!-- METADATA: {'source_file': 'faqs/domain_suspension_faq.md', 'category': 'faqs'} -->
+
+---
+doc_id: faq-domain-suspension
+title: Domain Suspension FAQ
+category: faq
+owner_team: domains
+last_updated: 2026-01-15
+source: internal_kb
+---
+
+--- CHUNK 1 ---
+<!-- METADATA: {'section': 'Domain Suspension FAQ', 'source_file': 'faqs/domain_suspension_faq.md', 'category': 'faqs'} -->
+
+This document addresses common questions related to domain suspensions and reactivation.  
+---  
+1. Why was my domain suspended?  
+Domains may be suspended for several reasons, including but not limited to:
+- Inaccurate or unverified WHOIS information
+- Abuse complaints (such as phishing, malware, or spam)
+- Billing or payment issues  
+The specific reason depends on the nature of the violation.  
+---  
+2. I didn’t receive any notice. Why?  
+In some cases, domains may be suspended immediately without prior notice.
+This typically occurs when the suspension is required for:
+- Abuse mitigation
+- Legal or regulatory compliance
+- Security threats  
+---  
+3. How do I reactivate my domain?  
+To reactivate your domain, you must resolve the issue that caused the suspension.
+Reactivation steps vary depending on the suspension reason and will be provided in your account dashboard or support communication.  
+---  
+4. How long does reactivation take?  
+Most domain reactivations are completed within **24 hours** after the underlying issue has been resolved.
+In rare cases, additional review time may be required.
+
+--- CHUNK 2 ---
+<!-- METADATA: {'source_file': 'faqs/domain_transfer_faq.md', 'category': 'faqs'} -->
+
+---
+doc_id: faq-domain-transfer
+title: Domain Transfer FAQ
+category: faq
+owner_team: domains
+last_updated: 2026-01-07
+source: internal_kb
+---
+
+--- CHUNK 3 ---
+<!-- METADATA: {'section': 'Domain Transfer FAQ', 'source_file': 'faqs/domain_transfer_faq.md', 'category': 'faqs'} -->
+
+1. Why is my domain locked?  
+Domains are locked by default to prevent unauthorized or accidental transfers.
+A locked domain cannot be transferred until it is manually unlocked by the domain owner.  
+2. How do I unlock my domain?  
+You can unlock your domain from your account dashboard:  
+- Sign in to your account
+- Go to Domain Management
+- Select the domain you want to transfer
+- Disable the domain lock option  
+The change usually takes effect immediately.  
+3. Are suspended domains transferable?  
+No.
+Domains must be active and in good standing to be transferred. Suspended or expired domains are not eligible for transfer.
+
+--- CHUNK 4 ---
+<!-- METADATA: {'source_file': 'faqs/whois_faq.md', 'category': 'faqs'} -->
+
+---
+doc_id: faq-whois
+title: WHOIS FAQ
+category: faq
+owner_team: domains
+last_updated: 2026-01-10
+source: internal_kb
+---
+
+--- CHUNK 5 ---
+<!-- METADATA: {'section': 'WHOIS FAQ', 'source_file': 'faqs/whois_faq.md', 'category': 'faqs'} -->
+
+This document explains common questions related to WHOIS information and verification requirements.  
+---  
+1. What is WHOIS?  
+WHOIS refers to the public registration information associated with a domain name.
+It typically includes details such as the registrant’s contact information and domain status, subject to privacy settings.  
+---  
+2. Why do I need to verify my WHOIS email?  
+WHOIS email verification is required to comply with **ICANN regulations**.
+Verification helps ensure the accuracy of domain ownership information and enables registrars to contact domain holders when necessary.  
+---  
+3. What happens if I don’t verify my WHOIS information?  
+If WHOIS verification is not completed within the required timeframe, your domain may be **suspended** until verification is successfully completed.
+
+--- CHUNK 6 ---
+<!-- METADATA: {'section': 'Abuse Handling Policy', 'source_file': 'policies/abuse_handling_policy.md', 'category': 'policies'} -->
+
+This policy defines how abuse reports are assessed, managed, and resolved to protect customers, infrastructure, and the broader internet ecosystem.  
+---
+
+--- CHUNK 7 ---
+<!-- METADATA: {'section': 'Abuse Handling Policy', 'subsection': '1. Scope', 'source_file': 'policies/abuse_handling_policy.md', 'category': 'policies'} -->
+
+This policy governs the handling of abuse reports related to domains and services managed by the organization.
+Covered abuse types include, but are not limited to:
+- Phishing
+- Malware distribution
+- Spam and bulk unsolicited messaging  
+---
+
+--- CHUNK 8 ---
+<!-- METADATA: {'section': 'Abuse Handling Policy', 'subsection': '2. Abuse Categories', 'source_file': 'policies/abuse_handling_policy.md', 'category': 'policies'} -->
+
+Abuse reports are classified into the following categories:  
+- Phishing websites or credential-harvesting pages
+- Malware hosting or distribution
+- Email spam campaigns or infrastructure abuse  
+Additional categories may be added as threat patterns evolve.  
+---
+
+--- CHUNK 9 ---
+<!-- METADATA: {'section': 'Abuse Handling Policy', 'subsection': '3. Immediate Actions', 'source_file': 'policies/abuse_handling_policy.md', 'category': 'policies'} -->
+
+If abuse is confirmed or presents an imminent risk:
+- Affected domains or services may be **suspended without prior notice**
+- Access may be restricted to prevent further harm
+- Relevant evidence will be preserved for review  
+---
+
+--- CHUNK 10 ---
+<!-- METADATA: {'section': 'Abuse Handling Policy', 'subsection': '4. Customer Remediation Requirements', 'source_file': 'policies/abuse_handling_policy.md', 'category': 'policies'} -->
+
+To restore services, customers may be required to take one or more of the following actions:  
+- Remove malicious or abusive content
+- Secure compromised systems or credentials
+- Patch vulnerabilities or misconfigurations
+- Provide evidence of remediation upon request  
+Failure to complete remediation may delay or prevent reactivation.  
+---
+
+--- CHUNK 11 ---
+<!-- METADATA: {'section': 'Abuse Handling Policy', 'subsection': '5. Escalation and Review', 'source_file': 'policies/abuse_handling_policy.md', 'category': 'policies'} -->
+
+- All abuse cases must be reviewed by the **Abuse Team** before reactivation
+- High-risk or repeat incidents may require additional approvals
+- Final decisions on reactivation rest with the Abuse Team
+
+--- CHUNK 12 ---
+<!-- METADATA: {'section': 'Billing and Refund Policy', 'source_file': 'policies/billing_refund_policy.md', 'category': 'policies'} -->
+
+This policy outlines the conditions under which refunds may be issued, items that are non-refundable, and the process for handling billing disputes.  
+---
+
+--- CHUNK 13 ---
+<!-- METADATA: {'section': 'Billing and Refund Policy', 'subsection': '1. Refund Eligibility', 'source_file': 'policies/billing_refund_policy.md', 'category': 'policies'} -->
+
+Refunds may be issued in the following circumstances:  
+- Duplicate or erroneous charges
+- Service provisioning or fulfillment errors attributable to the company  
+Refund eligibility is subject to review and approval by the Billing Team.  
+---
+
+--- CHUNK 14 ---
+<!-- METADATA: {'section': 'Billing and Refund Policy', 'subsection': '2. Non-Refundable Items', 'source_file': 'policies/billing_refund_policy.md', 'category': 'policies'} -->
+
+The following charges are non-refundable once processed:  
+- Domain registrations after activation or renewal
+- Domain redemption or recovery fees
+- Fees required by third-party registries  
+---
+
+--- CHUNK 15 ---
+<!-- METADATA: {'section': 'Billing and Refund Policy', 'subsection': '3. Billing Dispute Handling', 'source_file': 'policies/billing_refund_policy.md', 'category': 'policies'} -->
+
+- All billing disputes must be formally logged through the designated support or billing system
+- Disputes are reviewed and investigated by the **Billing Team**
+- Additional documentation may be requested to support dispute resolution  
+---
+
+--- CHUNK 16 ---
+<!-- METADATA: {'section': 'Billing and Refund Policy', 'subsection': '4. Refund Processing Time', 'source_file': 'policies/billing_refund_policy.md', 'category': 'policies'} -->
+
+- Approved refunds are processed within **5–10 business days**
+- Actual posting times may vary depending on the original payment method and financial institution
+
+--- CHUNK 17 ---
+<!-- METADATA: {'section': 'Domain Expiration and Redemption Policy', 'source_file': 'policies/domain_expiration_redemption_policy.md', 'category': 'policies'} -->
+
+This policy defines the domain expiration lifecycle, renewal options, redemption rules, and support limitations.  
+---
+
+--- CHUNK 18 ---
+<!-- METADATA: {'section': 'Domain Expiration and Redemption Policy', 'subsection': '1. Expiration Timeline', 'source_file': 'policies/domain_expiration_redemption_policy.md', 'category': 'policies'} -->
+
+The domain lifecycle follows a fixed registry-defined timeline:  
+- **Day 0** – Domain expires
+- **Day 1–30** – Grace period
+- **Day 31–60** – Redemption period
+- **Day 61+** – Pending deletion (irreversible)  
+Registry timelines may vary slightly by TLD but cannot be overridden.  
+---
+
+--- CHUNK 19 ---
+<!-- METADATA: {'section': 'Domain Expiration and Redemption Policy', 'subsection': '2. Grace Period', 'source_file': 'policies/domain_expiration_redemption_policy.md', 'category': 'policies'} -->
+
+- Domains may be renewed at the standard renewal cost
+- Normal domain services are restored upon successful renewal
+- No additional fees apply during this period  
+---
+
+--- CHUNK 20 ---
+<!-- METADATA: {'section': 'Domain Expiration and Redemption Policy', 'subsection': '3. Redemption Period', 'source_file': 'policies/domain_expiration_redemption_policy.md', 'category': 'policies'} -->
+
+- Domains enter redemption after the grace period ends
+- An additional **redemption fee** is required to recover the domain
+- Domain services remain offline until redemption is completed  
+---
+
+--- CHUNK 21 ---
+<!-- METADATA: {'section': 'Domain Expiration and Redemption Policy', 'subsection': '4. Recovery Limitations', 'source_file': 'policies/domain_expiration_redemption_policy.md', 'category': 'policies'} -->
+
+- Domains **cannot be recovered** once they enter pending deletion
+- Deletion is final and controlled by the registry
+- Re-registration may be possible only after full deletion and public release  
+---
+
+--- CHUNK 22 ---
+<!-- METADATA: {'section': 'Domain Expiration and Redemption Policy', 'subsection': '5. Support Actions and Limitations', 'source_file': 'policies/domain_expiration_redemption_policy.md', 'category': 'policies'} -->
+
+- Support teams may provide guidance on timelines and recovery options
+- Support **cannot override** registry-imposed expiration or deletion timelines
+- Exceptions are not permitted once registry thresholds are crossed
+
+--- CHUNK 23 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+This document defines when domains may be suspended, how customers are notified, and the conditions required for reactivation.  
+---
+
+--- CHUNK 24 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '1. Overview', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+Domains may be suspended to protect users, comply with legal or regulatory requirements, or address policy violations.
+Suspension disables DNS resolution and associated services but does **not** immediately delete the domain.  
+---
+
+--- CHUNK 25 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '2. Common Reasons for Suspension', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+Domains may be suspended for one or more of the following reasons:  
+- Inaccurate, missing, or unverified WHOIS information
+- Abuse reports, including phishing, malware distribution, or spam
+- Repeated billing or payment failures
+- Court orders or regulatory enforcement actions  
+---
+
+--- CHUNK 26 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '3. Notification Policy', 'subsubsection': '3.1 Standard Notice', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+- Customers are typically notified prior to suspension
+- Notifications are sent to the registered WHOIS or account email address
+
+--- CHUNK 27 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '3. Notification Policy', 'subsubsection': '3.2 No-Notice Suspensions', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+Immediate suspension may occur without prior notice in cases involving:  
+- Active phishing, malware, or security threats
+- Requests from law enforcement or regulatory bodies
+- Severe or repeated policy violations posing immediate risk  
+---
+
+--- CHUNK 28 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '4. Reactivation Requirements', 'subsubsection': '4.1 General Requirements', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+To be eligible for reactivation:
+- The underlying suspension issue must be fully resolved
+- The domain must remain within an allowable registry recovery state  
+---
+
+--- CHUNK 29 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '4. Reactivation Requirements', 'subsubsection': '4.2 Missing or Inaccurate WHOIS Information', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+- Customer must update WHOIS information
+- WHOIS email verification must be completed
+- Reactivation typically occurs within **24 hours** after successful verification  
+---
+
+--- CHUNK 30 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '4. Reactivation Requirements', 'subsubsection': '4.3 Policy Violation or Abuse-Related Suspensions', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+- Each case must be reviewed by the **Abuse Team**
+- Customers may be required to provide remediation or cleanup evidence
+- Support agents must **not** manually reactivate domains without explicit approval  
+---
+
+--- CHUNK 31 ---
+<!-- METADATA: {'section': 'Domain Suspension Guidelines', 'subsection': '5. Escalation and Ownership', 'source_file': 'policies/domain_suspension_guidelines.md', 'category': 'policies'} -->
+
+Suspension cases are escalated based on the root cause:  
+- WHOIS-related suspensions → **Support Team**
+- Abuse-related suspensions → **Abuse Team**
+- Legal or regulatory suspensions → **Legal Operations**
+
+--- CHUNK 32 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+This policy defines requirements and procedures to ensure accurate WHOIS data in compliance with ICANN regulations.  
+---
+
+--- CHUNK 33 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'subsection': '1. Purpose', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+The purpose of this policy is to ensure that all domain registration data remains accurate, complete, and verifiable, in accordance with ICANN requirements and registry rules.  
+---
+
+--- CHUNK 34 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'subsection': '2. Required WHOIS Information', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+The following WHOIS fields must be accurate and kept up to date:  
+- Registrant full name
+- Registrant email address
+- Registrant phone number
+- Administrative contact details  
+Additional fields may be required depending on the registry or TLD.  
+---
+
+--- CHUNK 35 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'subsection': '3. Verification Process', 'subsubsection': '3.1 Initial Verification', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+- Customers must verify their WHOIS email address after domain registration
+- Verification is also required following any update to registrant contact information  
+---
+
+--- CHUNK 36 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'subsection': '3. Verification Process', 'subsubsection': '3.2 Failed or Incomplete Verification', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+If WHOIS verification is not successfully completed within **15 days**:  
+- The affected domain may be suspended
+- DNS resolution and related services may be disabled until verification is completed  
+---
+
+--- CHUNK 37 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'subsection': '4. Customer Responsibilities', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+- Customers are responsible for maintaining accurate and current WHOIS information
+- Updates must be made promptly when registrant details change
+- Failure to maintain accuracy may result in suspension or other enforcement actions  
+---
+
+--- CHUNK 38 ---
+<!-- METADATA: {'section': 'WHOIS Accuracy Policy', 'subsection': '5. Reactivation After WHOIS Suspension', 'source_file': 'policies/whois_accuracy_policy.md', 'category': 'policies'} -->
+
+- Domains suspended due to WHOIS issues may be reactivated after successful verification
+- Reactivation typically occurs within **24 hours** of verification completion
+
+--- CHUNK 39 ---
+<!-- METADATA: {'section': 'Abuse Escalation Runbook', 'source_file': 'runbooks/runbook_abuse_escalation.md', 'category': 'runbooks'} -->
+
+This runbook outlines when abuse cases must be escalated, the information required for escalation, and actions that support teams are not permitted to perform.  
+---
+
+--- CHUNK 40 ---
+<!-- METADATA: {'section': 'Abuse Escalation Runbook', 'subsection': '1. When to Escalate', 'source_file': 'runbooks/runbook_abuse_escalation.md', 'category': 'runbooks'} -->
+
+Abuse cases must be escalated to the **Abuse Team** under the following conditions:  
+- Confirmed or suspected phishing activity
+- Malware hosting or distribution
+- Repeat or recurring abuse offenses associated with a domain or account  
+---
+
+--- CHUNK 41 ---
+<!-- METADATA: {'section': 'Abuse Escalation Runbook', 'subsection': '2. Required Information for Escalation', 'source_file': 'runbooks/runbook_abuse_escalation.md', 'category': 'runbooks'} -->
+
+The following information must be collected before escalation:  
+- Affected domain name(s)
+- Abuse report or case reference ID
+- Summary of customer remediation steps taken (if any)
+- Relevant timestamps or supporting evidence, where available  
+Incomplete escalation requests may delay review.  
+---
+
+--- CHUNK 42 ---
+<!-- METADATA: {'section': 'Abuse Escalation Runbook', 'subsection': '3. Support Restrictions', 'source_file': 'runbooks/runbook_abuse_escalation.md', 'category': 'runbooks'} -->
+
+- Support agents must **not** manually reactivate domains flagged for abuse
+- Reactivation decisions are owned exclusively by the **Abuse Team**
+- Any exceptions require explicit written approval from Abuse Team leadership
+
+--- CHUNK 43 ---
+<!-- METADATA: {'section': 'Billing Dispute Runbook', 'source_file': 'runbooks/runbook_billing_dispute.md', 'category': 'runbooks'} -->
+
+This runbook provides step-by-step guidance for handling customer billing disputes.  
+---
+
+--- CHUNK 44 ---
+<!-- METADATA: {'section': 'Billing Dispute Runbook', 'subsection': '1. Verify Charges', 'source_file': 'runbooks/runbook_billing_dispute.md', 'category': 'runbooks'} -->
+
+- Confirm the invoice number and transaction ID
+- Validate charge amounts, dates, and payment method
+- Ensure the charge corresponds to an active or completed service  
+---
+
+--- CHUNK 45 ---
+<!-- METADATA: {'section': 'Billing Dispute Runbook', 'subsection': '2. Determine Eligibility', 'source_file': 'runbooks/runbook_billing_dispute.md', 'category': 'runbooks'} -->
+
+- Review the dispute against the **Billing and Refund Policy**
+- Confirm whether the charge is refundable or non-refundable
+- Identify any applicable exceptions or limitations  
+---
+
+--- CHUNK 46 ---
+<!-- METADATA: {'section': 'Billing Dispute Runbook', 'subsection': '3. Escalation and Review', 'source_file': 'runbooks/runbook_billing_dispute.md', 'category': 'runbooks'} -->
+
+- Open a billing support ticket for manual review
+- Attach all relevant invoices, transaction records, and customer communications
+- Route the case to the **Billing Team** for resolution
+
+--- CHUNK 47 ---
+<!-- METADATA: {'section': 'Domain Suspension Triage Runbook', 'source_file': 'runbooks/runbook_domain_suspension_triage.md', 'category': 'runbooks'} -->
+
+This runbook provides step-by-step guidance for support agents when handling domain suspension inquiries.  
+---
+
+--- CHUNK 48 ---
+<!-- METADATA: {'section': 'Domain Suspension Triage Runbook', 'subsection': '1. Identify Suspension Reason', 'source_file': 'runbooks/runbook_domain_suspension_triage.md', 'category': 'runbooks'} -->
+
+- Review account notes, system flags, and recent notifications
+- Determine whether the suspension is related to WHOIS, abuse, billing, or legal action
+- Confirm the current domain status and registry state  
+---
+
+--- CHUNK 49 ---
+<!-- METADATA: {'section': 'Domain Suspension Triage Runbook', 'subsection': '2. WHOIS-Related Suspensions', 'source_file': 'runbooks/runbook_domain_suspension_triage.md', 'category': 'runbooks'} -->
+
+If the suspension is due to WHOIS issues:  
+- Ask the customer to update inaccurate or missing WHOIS information
+- Confirm that WHOIS email verification has been completed
+- Inform the customer that reactivation typically occurs within **24 hours** after verification  
+---
+
+--- CHUNK 50 ---
+<!-- METADATA: {'section': 'Domain Suspension Triage Runbook', 'subsection': '3. Abuse-Related Suspensions', 'source_file': 'runbooks/runbook_domain_suspension_triage.md', 'category': 'runbooks'} -->
+
+If the suspension is related to abuse or policy violations:  
+- Do **not** provide a reactivation ETA
+- Do **not** manually reactivate the domain
+- Escalate the case to the **Abuse Team** with all relevant details  
+---
+
+--- CHUNK 51 ---
+<!-- METADATA: {'section': 'Domain Suspension Triage Runbook', 'subsection': '4. Billing-Related Suspensions', 'source_file': 'runbooks/runbook_domain_suspension_triage.md', 'category': 'runbooks'} -->
+
+If the suspension is related to billing issues:  
+- Confirm payment status and outstanding balances
+- Guide the customer through payment resolution if applicable
+- Escalate to the **Billing Team** if payment issues persist
+
