@@ -38,7 +38,7 @@ The knowledge base is **fully dynamic**—documents can be updated or replaced w
 graph TB
     %% Knowledge Ingestion
     A[Markdown Knowledge Base]
-        --> B[Markdown Chunking]
+        --> B[Hierarchial Chunking]
 
     B --> C[Structured Chunks]
 
