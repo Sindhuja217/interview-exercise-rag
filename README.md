@@ -36,54 +36,48 @@ The knowledge base is **fully dynamic**—documents can be updated or replaced w
 
 ```mermaid
 graph TB
-    %% =========================
-    %% Knowledge Ingestion Phase
-    %% =========================
-    A[Markdown Knowledge Base (FAQs, Policies, Runbooks)]
-        --> B[Header-Aware Markdown Chunking]
+    %% Knowledge Ingestion
+    A[Markdown Knowledge Base]
+        --> B[Markdown Chunking]
 
-    B --> C[Structured Chunks (Preserve Section Hierarchy)]
+    B --> C[Structured Chunks]
 
-    C --> D[Metadata Enrichment (category, source_file, section, chunk_id)]
+    C --> D[Metadata Enrichment]
 
-    D --> E[Dense Embedding Generation (MiniLM)]
-    D --> F[Sparse Embedding Generation (BM25)]
+    D --> E[Dense Embeddings]
+    D --> F[Sparse Embeddings]
 
-    E --> G[Hybrid Vector Index]
+    E --> G[Hybrid Index]
     F --> G
 
-    G --> H[Qdrant Vector Store (Dense + Sparse)]
+    G --> H[Qdrant Vector Store]
 
-    %% =========================
-    %% Query & Retrieval Phase
-    %% =========================
-    I[Raw Customer Ticket]
-        --> J[Query Rewriting (LLM-based)]
+    %% Query and Retrieval
+    I[Customer Ticket]
+        --> J[Query Rewriting]
 
-    J --> K[One or More Retrieval Queries]
+    J --> K[Search Queries]
 
-    K --> L[Hybrid Retrieval (Dense + Sparse Search)]
+    K --> L[Hybrid Retrieval]
 
-    L --> M[Candidate Chunks (Top-K Initial)]
+    L --> M[Candidate Documents]
 
-    M --> N[Cross-Encoder Reranking (MS-MARCO)]
+    M --> N[Cross Encoder Reranking]
 
-    N --> O[Globally Ranked Context]
+    N --> O[Ranked Context]
 
-    O --> P[Final Context Selection (Top-N Chunks)]
+    O --> P[Final Context Selection]
 
-    %% =========================
-    %% Answer & Decision Phase
-    %% =========================
-    P --> Q[Context-Grounded LLM Generation]
+    %% Answer and Decision
+    P --> Q[LLM Answer Generation]
 
-    Q --> R[Answer-Only JSON Output]
+    Q --> R[Answer JSON]
 
-    R --> S[Deterministic Action Inference (Semantic Similarity)]
+    R --> S[Action Inference]
 
-    S --> T[MCP Schema Validation (Pydantic)]
+    S --> T[Schema Validation]
 
-    T --> U[Final Support Response (Answer + References + Action)]
+    T --> U[Final Support Response]
 
 ```
 
@@ -200,7 +194,7 @@ docker compose logs -f
 # Stop all services
 docker compose down
 ```
-Once the server is up and running, open the following URL in your browser to access the interactive API documentation:
+Once the server is up and running, open the following URL in your browser to access the interactive session:
 
 👉 http://0.0.0.0:8000/docs
 - Submit support tickets
